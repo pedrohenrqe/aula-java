@@ -1,15 +1,16 @@
 package br.senai.sp.jandira.game;
 
 import br.senai.sp.jandira.game.Model.Enemy;
+import br.senai.sp.jandira.game.Model.Menu;
+import br.senai.sp.jandira.game.Model.Player;
 import br.senai.sp.jandira.game.Model.Register;
 
 public class Game {
     public static void main(String[] args) {
 
-        // Instancia Register//
-        Register register = new Register();
-
-        register.Decision();
+        // Instancia Menu//
+        Menu menu = new Menu();
+        menu.Menu();
 
 
     }

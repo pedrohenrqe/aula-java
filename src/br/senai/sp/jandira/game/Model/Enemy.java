@@ -5,4 +5,9 @@ public class Enemy {
     public String skin;
     public int life;
 
+    public Enemy(){
+        life = 100;
+    }
+
+    public int getLife() {return life;}
 }
