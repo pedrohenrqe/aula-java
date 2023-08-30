@@ -10,4 +10,18 @@ public class Enemy {
     }
 
     public int getLife() {return life;}
+
+    public void SubtrairVida(int danoPlayer){
+
+        life -= danoPlayer;
+
+        if (life < 0) {
+            life = 0;
+        }
+
+    }
+
+    public void RestatLife(){
+        life = 100;
+    }
 }

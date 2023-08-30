@@ -29,8 +29,9 @@ public class Menu {
 
                 case 2:
                     battle.ChoiceScenario();
-                    battle.Battle();
-                    System.out.println("Feature in Development");
+                    battle.Battle(register.player, register.enemy);
+                    register.player.RestartLife();
+                    register.enemy.RestatLife();
                     break;
 
                 case 3:
